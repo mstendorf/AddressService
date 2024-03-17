@@ -10,6 +10,10 @@ Jeg vil tro den også kan køres via visual studio og den grønne play knap.
 ![AddressService running](https://github.com/mstendorf/AddressService/blob/main/AddressService.jpg?raw=true)
 
 ## Disclaimers
+Jeg har været lidt presset på tid, så jeg er sprunget over hvor gærdet er lavest ift. parsing af filen.
+Det gav ikke mening for mig at bruge tiden på at parse alle detaljerne i filen korrekt ud, så jeg lavede en letvægtsudgave
+der henter det mest essentielle.
+
 Planen var egentlig at have en consol applikation der parsede data fra filen ind i en sqlite database og api'et
 så hentede sine data derfra. Det ville have performet noget bedre, men jeg rendte i problemer med at sqlite NuGet pakken
 ikke virkede på Mac og det havde jeg ikke lige tiden til at bøvle med.
